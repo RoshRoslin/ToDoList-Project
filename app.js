@@ -27,7 +27,10 @@ window.addEventListener('DOMContentLoaded', setupItems);
 
 // ****** FUNCTIONS **********
 
+
+
 function addItem(event){
+  console.log("test")
   event.preventDefault();
   const value = grocery.value;
   const id = new Date().getTime().toString();
